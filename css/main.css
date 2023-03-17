@@ -1,0 +1,72 @@
+/* ГОЛОВНІ СЕЛЕКТОРИ */
+body {
+    font-size: 16px;
+    color: rgba(38, 38, 38, 1);
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.main {
+    min-width: 100%;
+}
+/* СЕЛЕКТОРИ, ЩО ПОВТОРЮЮТЬСЯ */
+._logo {
+}
+._menu {
+}
+._popular-title span {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.color-black {
+    color: rgba(38, 38, 38, 1);
+    margin-right: 5px;
+}
+.orange {
+    color: rgba(156, 156, 66, 1);
+}
+._display-flex {
+    display: flex;
+    align-items: flex-end;
+}
+._contact {
+}
+._overflow-hidden {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

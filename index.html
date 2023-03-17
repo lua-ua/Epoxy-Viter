@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EpoxyViter</title>
+    <link rel="icon" href="./img/header/logo.jpg" type="image/x-icon">
+
+
+    <!--ПІДКЛЮЧЕННЯ CSS-->
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/adaptive.css">
+    <!--
+    <link rel="stylesheet" href="./css/products.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/catalog.css">
+    <link rel="stylesheet" href="./css/questions.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    -->
+
+
+    <!--ПІДКЛЮЧЕННЯ JAVASCRIPT-->
+    <script src="./script/header/search-animation.js" defer></script>
+    <script src="./script/header/burger-menu.js" defer></script>
+    
+    
+
+    <!--ПІДКЛЮЧЕННЯ ШРИФТІВ-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ІМПОРТ ШРИФТІВ */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+    </style>
+</head>
+<body id="body">
+    <div class="wrapper">
+
+        <div id="header-wrapper">
+            <header class="header">
+                <div class="header__container container">
+    
+                    <a href="#banner" class="header__logo _logo">
+                        <img src="./img/header/logotype-1.jpg" alt="логотип">
+                    </a>
+    
+    
+                    <div id="burger">
+                        <div id="burger__line">
+                            <span id="burger__name">Menu</span>
+                        </div>
+                    </div>
+    
+                    <div class="header__navigation">
+                        <nav class="header__menu _menu" id="burger-menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#products">Мої вироби</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#catalog">Каталог</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#about">Про мене</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#questions">Часті запитання</a>
+                                </li>
+                            </ul>
+                        </nav>
+    
+                        <div class="header__user" id="header-user">
+                            <div class="user__search-icon" id="search-open">
+                                <img id="" src="./img/header/icon-search.svg" alt="пошук">
+                            </div>
+                            
+                            <div class="user__line"></div>
+                            <div class="user__basket">
+                                <img src="./img/header/icon-basket.svg" alt="кошик">
+                            </div>
+                            <div class="user__login">
+                                <a href="/">Увійти</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </header>
+    
+            <section class="section__search" id="section-search">
+                <div class="section-search__container container">
+                    <div class="section__search-form" id="">
+                        <form action="#">
+                            <input id="search-value" type="text" name="search" placeholder="Введіть ключове слово">
+                            <div class="section__search-close" id="search-close">
+                                <img src="./img/header/close-button_icon.svg" alt="close">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+
+    
+        <div class="banner" id="banner">
+            <div class="banner__container container">
+                <div class="banner__content">
+                    <h1 class="banner__title">Магазин Виробів з Епоксидної Смоли</h1>
+                    <div class="banner__subtitle">Поточний термін отримання замовлення складає 1-2 місяці</div>
+                    <div class="banner__button">
+                        <a href="#products">Замовити зараз</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <main class="main">
+            
+            <div class="products" id="products">
+                <div class="products__container container">
+    
+                    <div class="products__title _popular-title">
+                        <span class="color-black">Мої</span>
+                        <span class="orange">вироби</span>
+                    </div>
+    
+                    <div class="products__row">
+                        <div class="products__cards">
+                            <div class="products__image">
+                                <img src="./img/products/clock__Ukraine-1.jpg" alt="годинник 'Україна'">
+                            </div>
+                            <div class="products__name">Годинник "Україна"</div>
+                            <div class="products__price">
+                                <span>від</span>
+                                3.499₴
+                            </div>
+                            <a href="/" class="products__review">
+                                Переглянути
+                            </a>
+                        </div>
+                        
+                        <div class="products__cards">
+                            <div class="products__image">
+                                <img src="./img/products/clock__Ukraine-1.jpg" alt="годинник 'Україна'">
+                            </div>
+                            <div class="products__name">Годинник "Україна"</div>
+                            <div class="products__price">
+                                <span>від</span>
+                                3.499₴
+                            </div>
+                            <a href="/" class="products__review">
+                                Переглянути
+                            </a>
+                        </div>
+                        
+                        <div class="products__cards">
+                            <div class="products__image">
+                                <img src="./img/products/clock__Ukraine-1.jpg" alt="годинник 'Україна'">
+                            </div>
+                            <div class="products__name">Годинник "Україна"</div>
+                            <div class="products__price">
+                                <span>від</span>
+                                3.499₴
+                            </div>
+                            <a href="/" class="products__review">
+                                Переглянути
+                            </a>
+                        </div>
+                        
+                        <div class="products__cards">
+                            <div class="products__image">
+                                <img src="./img/products/clock__Ukraine-1.jpg" alt="годинник 'Україна'">
+                            </div>
+                            <div class="products__name">Годинник "Україна"</div>
+                            <div class="products__price">
+                                <span>від</span>
+                                3.499₴
+                            </div>
+                            <a href="/" class="products__review">
+                                Переглянути
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <a href="/" class="products__button-more">
+                        <span>Показати більше виробів</span>
+                        <img src="./img/products/arrow-right.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="about" id="about">
+                <div class="about__container container">
+                    <div class="about__row">
+                        <div class="about__description">
+                            <div class="about__title _popular-title">
+                                <span class="color-black">Про</span>
+                                <span class="orange">мене</span>
+                            </div>
+                            <div class="about__paragraph">Привіт! Давайте знайомитись. Мене звуть Тетяна. Творчістю займаюся вже близько 2 років. Все почалося з того, що одного дня я побачила відео, де у форму виливають якусь рідину, яка ж потім перетворюється у красиву підставку. Це було настільки круто, що я не зупинилась на одному переглянутому відео - річ яка змінила моє життя на краще. Це стало поштовхом до розвитку мого кар'єрного шляху, і навіть більше - моєї справи на усе життя. А далі все як в тумані … Перегляд сотень відеороликів з процесом та уроками, пошук матеріалів та перші спроби... І як результат, я теперь можу Вас радувати такою красою</div>
+                            <a href="/" class="about__button-more-information">Дізнатися більше...</a>
+                        </div>
+                        <div class="about__image">
+                            <img src="./img/about/about-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog" id="catalog">
+                <div class="catalog__container container">
+                    <div class="about__title _popular-title _display-flex">
+                        <span class="color-black">Каталог</span>
+                        <div class="about__view-all">більше ></div>
+                    </div>
+                    <div class="catalog__row">
+                        <div class="catalog__column">
+                            <div class="catalog__image">
+                                <img src="./img/catalog/image-1.jpg" alt="">
+                            </div>
+                            <div class="catalog__note">Годинник «Україна»</div>
+                            <div class="catalog__name">Доступний у багатьох розмірах</div>
+                        </div>
+                        <div class="catalog__column">
+                            <div class="catalog__image">
+                                <img src="./img/catalog/image-1.jpg" alt="">
+                            </div>
+                            <div class="catalog__note">Годинник «Україна»</div>
+                            <div class="catalog__name">Доступний у багатьох розмірах</div>
+                        </div>
+                        <div class="catalog__column">
+                            <div class="catalog__image">
+                                <img src="./img/catalog/image-1.jpg" alt="">
+                            </div>
+                            <div class="catalog__note">Годинник «Україна»</div>
+                            <div class="catalog__name">Доступний у багатьох розмірах</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="questions" id="questions">
+                <div class="questions__container container">
+                    <div class="about__title _popular-title">
+                        <span class="color-black">Часті</span>
+                        <span class="orange">запитання</span>
+                    </div>
+    
+                    <div class="questions__row">
+                        
+                        <div class="questions__card">
+                            <div class="questions__writes">
+                                <div class="questions__image">
+                                    <img src="./img/questions/human__ava.png" alt="">
+                                </div>
+                                <div class="questions__guestion">- Чи є відправка за кордон?</div>
+                            </div>
+                            <div class="questions__line"></div>
+                            <div class="questions__writes">
+                                <div class="questions__image">
+                                    <img src="./img/questions/ava_1.jpg" alt="">
+                                </div>
+                                <div class="questions__answer">- Так. Відправляємо в усі доступні місця у межах та поза межами України.</div>
+                            </div>
+                        </div>
+    
+                        <div class="questions__card">
+                            <div class="questions__writes">
+                                <div class="questions__image">
+                                    <img src="./img/questions/human__ava.png" alt="">
+                                </div>
+                                <div class="questions__guestion">- Чи можна додати щось своє? Гравіювання, надпис і т.п.</div>
+                            </div>
+                            <div class="questions__line"></div>
+                            <div class="questions__writes">
+                                <div class="questions__image">
+                                    <img src="./img/questions/ava_1.jpg" alt="">
+                                </div>
+                                <div class="questions__answer">- Так. Усі індивідуальні побажання обговорюються, уточнюються та в кінцевому випадку додаються - за бажанням покупця.</div>
+                            </div>
+                        </div>
+    
+                        <div class="questions__card">
+                            <div class="questions__writes">
+                                <div class="questions__image">
+                                    <img src="./img/questions/human__ava.png" alt="">
+                                </div>
+                                <div class="questions__guestion">- Який термін виготовлення і скільки чекати?</div>
+                            </div>
+                            <div class="questions__line"></div>
+                            <div class="questions__writes">
+                                <div class="questions__image">
+                                    <img src="./img/questions/ava_1.jpg" alt="">
+                                </div>
+                                <div class="questions__answer">- Термін виготовлення залежить від самого виробу, його розміру, складових та індивідуальних побажань.</div>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__row">
+
+                    <div class="footer__contact _contact">
+                        <div class="contact__title">Контакти</div>
+                        <ul class="contact__list">
+                            <li class="contact__item">
+                                <div class="contact__image">
+                                    <img id="instagram-icon" class="contact-icon" src="./img/footer/contact/instagram-icon.png" alt="">
+                                </div>
+                                <div class="_overflow-hidden">
+                                    <a href="/" id="instagram-text" class="contact-link">Instagram</a>
+                                </div>
+                            </li>
+                            
+                            <li class="contact__item">
+                                <div class="contact__image">
+                                    <img id="viber-icon" class="contact-icon" src="./img/footer/contact/viber-icon.png" alt="">
+                                </div>
+                                <div class="_overflow-hidden">
+                                    <a href="/" id="viber-text" class="contact-link">Viber</a>
+                                </div>
+                            </li>
+                            <li class="contact__item">
+                                <div class="contact__image">
+                                    <img id="whatsapp-icon" class="contact-icon" src="./img/footer/contact/whats__app-icon.png" alt="">
+                                </div>
+                                <div class="_overflow-hidden">
+                                    <a href="/" id="whatsapp-text" class="contact-link">WhatsApp</a>
+                                </div>
+                            </li>
+                            <li class="contact__item">
+                                <div class="contact__image">
+                                    <img id="telegram-icon" class="contact-icon" src="./img/footer/contact/telegram-icon.png" alt="">
+                                </div>
+                                <div class="_overflow-hidden">
+                                    <a href="/" id="telegram-text" class="contact-link">Telegram</a>
+                                </div>
+                            </li>
+                            <li class="contact__item">
+                                <div class="contact__image">
+                                    <img id="tiktok-icon" class="contact-icon" src="./img/footer/contact/tiktok-icon.com.png" alt="">
+                                </div>
+                                <div class="_overflow-hidden">
+                                    <a href="/" id="tiktok-text" class="contact-link">TikTok</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__general _general">
+                        <div class="general__title">Головне</div>
+                        <ul class="general__list">
+                            <li class="general__item">
+                                <a href="/" class="general__link">Мої вироби</a>
+                            </li>
+                            <li class="general__item">
+                                <a href="/" class="general__link">Каталог</a>
+                            </li>
+                            <li class="general__item">
+                                <a href="/" class="general__link">Про мене</a>
+                            </li>
+                            <li class="general__item">
+                                <a href="/" class="general__link">Часті запитання</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__work-schedule _work-schedule">
+                        <div class="work-schedule__title">Графік роботи</div>
+                         
+                        <ul class="work-schedule__list">
+                            <li class="work-schedule__item">08:00-20:00 Пн-пт</li>
+                            <li class="work-schedule__item">10:00-13:00 Субота</li>
+                            <li class="work-schedule__item">Неділя - вихідний</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__aside _aside">
+                        <div class="footer__numbers-phone _numbers-phone">
+                            <div class="numbers-phone__title">Номери телефонів</div>
+                            <ul class="numbers-phone__list">
+                                <li class="numbers-phone__item">+380667372309</li>
+                                <li class="numbers-phone__item">+380667372309</li>
+                            </ul>
+                        </div>
+                        <div class="footer__address _address">
+                            <div class="address__title">Адреса</div>
+                            <div class="address__description">Україна, місто Луцьк, проспект Молоді</div>
+                            <div class="address__email">tetanavetrova4@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        -->
+    </div>
+</body>
+</html>
