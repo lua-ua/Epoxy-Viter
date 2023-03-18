@@ -3,7 +3,7 @@
     min-height: 100vh;
     min-width: 100%;
     
-    background: linear-gradient(90deg, #848446 0%, rgba(255, 255, 132, 0.2) 100%), url('/img/banner/bg.jpg') no-repeat;
+    background: linear-gradient(90deg, #848446 0%, rgba(255, 255, 132, 0.2) 100%), url("../img/banner/bg.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
